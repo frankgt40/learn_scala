@@ -23,11 +23,3 @@ object ChecksumAccumulator {
 
 
 }
-
-val s = new ChecksumAccumulator()
-s.add(12)
-s.add(51)
-println(s.checksum())
-
-
-println(ChecksumAccumulator.calculate("Every value is an object."))
